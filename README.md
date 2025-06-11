@@ -92,11 +92,7 @@ Kategori Dağılımı Grafiği: Ürünlerin kategori bazlı dağılımını past
 💡 Bu sayfa, yöneticilere hızlı ve görsel destekli bir özet sunarak karar alma süreçlerini kolaylaştırır.
 
 # 📦Ürünler (Products):
-- Ürün listeleme  
-
-- Yeni ürün ekleme  
-
-- Ürün düzenleme ✏️ ve silme 🗑️  
+- Ürün listeleme  - Yeni ürün ekleme  - Ürün düzenleme ✏️ ve silme 🗑️  
 
 💡 *Gerçek zamanlı form kontrolleriyle sade bir içerik yönetim modülü.*
 
@@ -111,11 +107,7 @@ Her ürünün yanında düzenleme ✏️ ve silme 🗑️ ikonları ile işlem y
 💡 Ürün yönetimi modülü, dinamik state güncellemeleriyle gerçek zamanlı bir panel hissi verir.
 
 # 👥Kullanıcılar (Users):
-- Kayıtlı kullanıcıların listelenmesi  
-
-- E-posta, rol ve kullanıcı adı görüntüleme  
-
-- Kullanıcı silme işlemleri  
+- Kayıtlı kullanıcıların listelenmesi  - E-posta, rol ve kullanıcı adı görüntüleme  - Kullanıcı silme işlemleri  
 
 💡 *Sistem yetkilendirme ve kullanıcı takibi için temel yapı.*
 
@@ -140,7 +132,7 @@ Gerçek kullanıcıların sahte sipariş verileri listelenir.
 
 Sipariş ID’si, müşteri adı, tutar ve sipariş durumu görünür.
 
-💡 Bu sayfa, işlem takibini kolaylaştırmak adına sade ve işlevsel tasarlanmıştır.
+💡İşlem takibini kolaylaştırmak adına sade ve işlevsel tasarlanmıştır.
 
 # 🛠️ Kullanılan Teknolojiler:
 
@@ -167,18 +159,23 @@ Sipariş ID’si, müşteri adı, tutar ve sipariş durumu görünür.
 
 ✅ Gerçek API ile entegrasyon (Node.js / Express / MongoDB)
 
-
-# 🌟 Kapanış Notu:
-Bu proje, sadece kod yazmakla kalmayıp; kullanıcı ihtiyaçlarını anlamayı, arayüzleri erişilebilir ve etkili şekilde tasarlamayı da deneyimlediğim bir çalışma oldu. Geliştirici yolculuğumda edindiğim her beceriyi yansıtmaya çalıştığım bu panel; sürdürülebilir, modüler ve geliştirilebilir yapısıyla daha birçok projeye temel olabilir
-
 # 📬 İletişim: 
 Projeyle ilgili her türlü soru, öneri veya katkı için benimle iletişime geçebilirsin:
 
 📧 akgundogduesr@gmail.com
+
+# 🌟 Kapanış Notu:
+Bu proje, sadece kod yazmakla kalmayıp; kullanıcı ihtiyaçlarını anlamayı, arayüzleri erişilebilir ve etkili şekilde tasarlamayı da deneyimlediğim bir çalışma oldu. Geliştirici yolculuğumda edindiğim her beceriyi yansıtmaya çalıştığım bu panel; sürdürülebilir, modüler ve geliştirilebilir yapısıyla daha birçok projeye temel olabilir
+
+
  
 
 # 📷 Ekran Görüntüsü:
 
+
+
+
+https://github.com/user-attachments/assets/0f975a1c-d762-419d-bc3f-815010c301c5
 
 
 
