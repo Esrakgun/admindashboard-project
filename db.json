@@ -1,0 +1,425 @@
+{
+  "products": [
+    {
+      "id": "B",
+      "name": "Airpods Pro 2",
+      "brand": "Apple",
+      "price": "8100",
+      "stock": "26",
+      "rating": "4.5",
+      "reviews_count": "40",
+      "category": "Electronics",
+      "image_url": "https://imageio.forbes.com/specials-images/imageserve/61f400bcd5bafa83659a18bf/Apple-AirPods-Pro/960x0.jpg?format=jpg&width=960",
+      "description": "İki kata kadar daha güçlü Aktif Gürültü Engelleme, ortama göre ayarlanan Adaptif Ses ve kişiselleştirilmiş uzamsal ses özelliğiyle etkileyici bir deneyim sunar."
+    },
+    {
+      "id": "C",
+      "name": "Dyson V11 Süpürge",
+      "brand": "Dyson",
+      "category": "Ev",
+      "price": 599.99,
+      "stock": 15,
+      "description": "Güçlü emiş gücü, LCD ekranı ve 60 dakikaya kadar çalışma süresi ile üstün temizlik deneyimi sunar.",
+      "image_url": "https://dynamicvac.com/cdn/shop/files/dyson-v11-cordless-stick-vacuum-2267833f-3c7f-4afc-9fba-a94441e61784-jpgrendition.jpg?v=1729639091&width=1946",
+      "rating": 4.9,
+      "reviews_count": 45
+    },
+    {
+      "id": "D",
+      "name": "Kurtlarla Koşan Kadınlar",
+      "brand": "Ayrıntı Yayınları",
+      "category": "Kitap",
+      "price": 200,
+      "stock": 42,
+      "description": "Kadın ruhunun vahşi doğasına dair ilham verici bir başyapıt.",
+      "image_url": "https://www.ayrintiyayingrubu.com/wp-content/uploads/2023/02/kurtlarla-kosan-kadinlar-1669276222.jpg",
+      "rating": 4.8,
+      "reviews_count": 132
+    },
+    {
+      "id": "E",
+      "name": "Vans Klasik Ayakkabı",
+      "brand": "Vans",
+      "price": "3500",
+      "stock": "25",
+      "rating": "4.4",
+      "reviews_count": "58",
+      "category": "Shoes",
+      "image_url": "https://cdn.dsmcdn.com/ty1664/prod/QC/20250412/14/511daa91-a8e0-3a4f-bf8b-0b730fc3c22e/1_org_zoom.jpg",
+      "description": "Günlük tarzınıza şıklık ve rahatlık katan ikonik Vans modeli."
+    },
+    {
+      "id": "F",
+      "name": "Siyah Uzun Elbise",
+      "brand": "Minimal Moda",
+      "category": "Giyim",
+      "price": 890,
+      "stock": 18,
+      "description": "Şık ve sade tasarımıyla özel günlerde zarif bir görünüm sunar.",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQDJLz8rZ8QYWjJlBiK2-jdG6e4jffO2jYnjEEPSprFbY_Y4AcRPq3_ufp36S3ugLXh7geMKyzTKdQbuioxy2gnGnUFY9kV8jKWL4qeM5EEYhYF_K90mrCH",
+      "rating": 4.6,
+      "reviews_count": 34
+    },
+    {
+      "id": "G",
+      "name": "Asimetrik Küpe Seti",
+      "brand": "Glam Accessories",
+      "category": "Aksesuar",
+      "price": 220,
+      "stock": 30,
+      "description": "Modern ve özgün tasarımıyla dikkat çeken asimetrik küpe seti.",
+      "image_url": "https://img2-ipekyol.mncdn.com/mnresize/2400/-//ipekyol/products/SS25/Stillife/IS1250068091265.JPG",
+      "rating": 4.3,
+      "reviews_count": 21
+    },
+    {
+      "id": "H",
+      "name": "Dekoratif Masa Aynası",
+      "brand": "Estella Home",
+      "category": "Ev",
+      "price": 375,
+      "stock": 20,
+      "description": "Zarif tasarımı ve altın detaylarıyla yaşam alanınıza şıklık katan dekoratif masa aynası.",
+      "image_url": "https://dekordelisi.com.tr/wp-content/uploads/dd-sandero-gold-tasarim-dekoratif-ayna.webp",
+      "rating": 4.7,
+      "reviews_count": 29
+    },
+    {
+      "id": "031a",
+      "name": " Erkek Dijital Saat",
+      "brand": " Tignapoo",
+      "price": "2500",
+      "stock": "562",
+      "rating": "4.2",
+      "reviews_count": "1003",
+      "category": "Electronics",
+      "image_url": "https://m.media-amazon.com/images/I/71pKjak8QyL._AC_UF1000,1000_QL80_.jpg",
+      "description": "Tignapoo Erkek Dijital Saat Spor İzle Açık Su Geçirmez Dijital Saatler Krono Alarmlı LED Elektronik Işıklı Kol Saati"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Ahmet Yılmaz",
+      "email": "ahmet.yilmaz@example.com",
+      "password": "hashed_password_1",
+      "image": "/erkek1.PNG",
+      "address": {
+        "street": "Atatürk Cad. No: 15",
+        "city": "Istanbul",
+        "postal_code": "34000",
+        "country": "Turkey"
+      },
+      "phone": "+90 555 123 4567",
+      "orders": [
+        {
+          "order_id": 1001,
+          "product_id": 1,
+          "quantity": 1,
+          "total_price": 1299.99,
+          "order_date": "2024-09-10"
+        },
+        {
+          "order_id": 1002,
+          "product_id": 4,
+          "quantity": 2,
+          "total_price": 299.98,
+          "order_date": "2024-08-15"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Elif Kaya",
+      "email": "elif.kaya@example.com",
+      "password": "hashed_password_2",
+      "image": "/kız1.PNG",
+      "address": {
+        "street": "İstiklal Mah. 123. Sok. No: 45",
+        "city": "Ankara",
+        "postal_code": "06000",
+        "country": "Turkey"
+      },
+      "phone": "+90 532 654 3210",
+      "orders": [
+        {
+          "order_id": 1003,
+          "product_id": 3,
+          "quantity": 1,
+          "total_price": 349.99,
+          "order_date": "2024-07-22"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Mehmet Demir",
+      "email": "mehmet.demir@example.com",
+      "password": "hashed_password_3",
+      "image": "/erkek2.PNG",
+      "address": {
+        "street": "Mimar Sinan Bulv. No: 78",
+        "city": "Izmir",
+        "postal_code": "35000",
+        "country": "Turkey"
+      },
+      "phone": "+90 542 987 6543",
+      "orders": []
+    },
+    {
+      "id": "4",
+      "name": "Zeynep Aksoy",
+      "email": "zeynep.aksoy@example.com",
+      "password": "hashed_password_4",
+      "image": "/kız2.PNG",
+      "address": {
+        "street": "Bahçelievler Mah. Gül Sok. No: 12",
+        "city": "İzmir",
+        "postal_code": "35400",
+        "country": "Turkey"
+      },
+      "phone": "+90 535 789 1234",
+      "orders": [
+        {
+          "order_id": 1005,
+          "product_id": 2,
+          "quantity": 1,
+          "total_price": 999.99,
+          "order_date": "2024-09-05"
+        },
+        {
+          "order_id": 1006,
+          "product_id": 6,
+          "quantity": 1,
+          "total_price": 599.99,
+          "order_date": "2024-10-12"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Emre Şahin",
+      "email": "emre.sahin@example.com",
+      "password": "hashed_password_7",
+      "image": "/erkek2.PNG",
+      "address": {
+        "street": "Merkez Mah. Atatürk Cad. No: 42",
+        "city": "Antalya",
+        "postal_code": "07100",
+        "country": "Turkey"
+      },
+      "phone": "+90 536 897 2345",
+      "orders": [
+        {
+          "order_id": 1010,
+          "product_id": 2,
+          "quantity": 1,
+          "total_price": 999.99,
+          "order_date": "2024-10-08"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Selin Özkan",
+      "email": "selin.ozkan@example.com",
+      "password": "hashed_password_8",
+      "image": "/kız4.PNG",
+      "address": {
+        "street": "Yeni Mah. Lale Sok. No: 23/5",
+        "city": "Eskişehir",
+        "postal_code": "26000",
+        "country": "Turkey"
+      },
+      "phone": "+90 538 765 4321",
+      "orders": [
+        {
+          "order_id": 1011,
+          "product_id": 6,
+          "quantity": 1,
+          "total_price": 599.99,
+          "order_date": "2024-09-20"
+        },
+        {
+          "order_id": 1012,
+          "product_id": 1,
+          "quantity": 1,
+          "total_price": 1299.99,
+          "order_date": "2024-10-15"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Emre Yıldız",
+      "email": "emre.yildiz@example.com",
+      "password": "hashed_password_9",
+      "image": "/erkek1.PNG",
+      "address": {
+        "street": "Atatürk Cad. No: 12",
+        "city": "İzmir",
+        "postal_code": "35030",
+        "country": "Turkey"
+      },
+      "phone": "+90 532 123 4567",
+      "orders": [
+        {
+          "order_id": 1013,
+          "product_id": 2,
+          "quantity": 2,
+          "total_price": 299.98,
+          "order_date": "2024-11-02"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Derya Kaya",
+      "email": "derya.kaya@example.com",
+      "password": "hashed_password_10",
+      "image": "/kız1.PNG",
+      "address": {
+        "street": "Barbaros Mah. Deniz Sok. No: 7",
+        "city": "Antalya",
+        "postal_code": "07070",
+        "country": "Turkey"
+      },
+      "phone": "+90 546 234 5678",
+      "orders": [
+        {
+          "order_id": 1014,
+          "product_id": 4,
+          "quantity": 1,
+          "total_price": 749,
+          "order_date": "2024-08-12"
+        },
+        {
+          "order_id": 1015,
+          "product_id": 3,
+          "quantity": 3,
+          "total_price": 1197,
+          "order_date": "2024-09-01"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Canan Demir",
+      "email": "canan.demir@example.com",
+      "password": "hashed_password_11",
+      "image": "/kız2.PNG",
+      "address": {
+        "street": "Mevlana Cad. No: 45",
+        "city": "Konya",
+        "postal_code": "42060",
+        "country": "Turkey"
+      },
+      "phone": "+90 530 345 6789",
+      "orders": [
+        {
+          "order_id": 1016,
+          "product_id": 5,
+          "quantity": 2,
+          "total_price": 999.98,
+          "order_date": "2024-12-10"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "order_id": 1001,
+      "user_id": 1,
+      "order_date": "2024-09-10",
+      "status": "Shipped",
+      "total_price": 1299.99,
+      "shipping_address": {
+        "street": "Atatürk Cad. No: 15",
+        "city": "Istanbul",
+        "postal_code": "34000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Apple iPhone 14",
+          "quantity": 1,
+          "price": 1299.99
+        }
+      ],
+      "id": "2640"
+    },
+    {
+      "order_id": 1002,
+      "user_id": 1,
+      "order_date": "2024-09-15",
+      "status": "Delivered",
+      "total_price": 299.98,
+      "shipping_address": {
+        "street": "Atatürk Cad. No: 15",
+        "city": "Istanbul",
+        "postal_code": "34000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 4,
+          "name": "Nike Air Max 270",
+          "quantity": 2,
+          "price": 149.99
+        }
+      ],
+      "id": "e9d8"
+    },
+    {
+      "order_id": 1003,
+      "user_id": 2,
+      "order_date": "2024-09-22",
+      "status": "Processing",
+      "total_price": 349.99,
+      "shipping_address": {
+        "street": "İstiklal Mah. 123. Sok. No: 45",
+        "city": "Ankara",
+        "postal_code": "06000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 3,
+          "name": "Sony WH-1000XM5 Headphones",
+          "quantity": 1,
+          "price": 349.99
+        },
+        {
+          "product_id": 5,
+          "name": "Adidas Ultraboost 22",
+          "quantity": 3,
+          "price": 180
+        }
+      ],
+      "id": "a863"
+    },
+    {
+      "order_id": 1004,
+      "user_id": 4,
+      "order_date": "2024-10-01",
+      "status": "Delivered",
+      "total_price": 180,
+      "shipping_address": {
+        "street": "Kordonboyu Mah. Sahil Yolu Cad. No: 22",
+        "city": "Antalya",
+        "postal_code": "07000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 5,
+          "name": "Adidas Ultraboost 22",
+          "quantity": 1,
+          "price": 180
+        }
+      ],
+      "id": "c3a7"
+    }
+  ]
+}

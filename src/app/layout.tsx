@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "@/assets/globals.css";
+import Sidebar from "@/components/sidebar";
+import Header from "@/components/header";
+import { ToastContainer } from "react-toastify";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,9 +28,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-black`}
       >
-        {children}
+        <div className="flex min-h-screen overflow-hidden w-screen">
+          <Sidebar />
+
+          <div className="flex flex-col min-w-[450px] w-full">
+            <Header />
+
+            <main className="flex-1 bg-[#edeff5] text-black">{children}</main>
+
+            <ToastContainer autoClose={2000} />
+          </div>
+        </div>
       </body>
     </html>
   );
